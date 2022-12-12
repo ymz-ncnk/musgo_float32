@@ -5,13 +5,12 @@ package main
 import (
 	"reflect"
 
+	"github.com/ymz-ncnk/musgo"
 	mgf "github.com/ymz-ncnk/musgo_float32"
-
-	"github.com/ymz-ncnk/dotmusgo"
 )
 
 func main() {
-	musGo, err := dotmusgo.New()
+	musGo, err := musgo.New()
 	if err != nil {
 		panic(err)
 	}
